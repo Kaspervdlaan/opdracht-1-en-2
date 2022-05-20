@@ -1,0 +1,40 @@
+.flex-container {
+    background-color: #f5ee9e;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+article {
+    background-color: #f49e4c;
+    padding: 20px;
+    color: #ab3428;
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    padding: 20px;
+}
+
+aside {
+    background-color: red;
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+section {
+    background-color: #D84282;
+    flex-basis: 300px;
+    flex-grow: 4;
+    flex-shrink: 1;
+}

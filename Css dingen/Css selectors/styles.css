@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-front-page {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.main-content {
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+
+.main-footer {
+    background-color: chartreuse;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+button {
+    background-color: darkgrey;
+    border: none;
+    padding: 8px;
+    color: darkgreen;
+}
+
+button + button {
+    margin-left: 20px;
+    border: 1px solid black;
+}
